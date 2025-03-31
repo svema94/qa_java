@@ -11,8 +11,6 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FelineTest {
-    @Mock
-    private Animal animalMock;
 
     @Test
     public void eatMeatTest() throws Exception {
